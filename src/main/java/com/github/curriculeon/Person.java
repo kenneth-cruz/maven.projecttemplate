@@ -3,6 +3,9 @@ package com.github.curriculeon;
 public class Person {
     private String name;
 
+    public Person() {
+    }
+
     public Person(String name) {
         this.name = name;
     }
@@ -13,5 +16,12 @@ public class Person {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "name='" + name + '\'' +
+                '}';
     }
 }
