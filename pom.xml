@@ -5,8 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.github.curriculeon</groupId>
-    <artifactId>default-method-interfaces</artifactId>
-    <version>1.0</version>
+    <artifactId>project-template</artifactId>
+    <version>1.0.0</version>
 
     <build>
         <plugins>
